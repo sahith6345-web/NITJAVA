@@ -4,7 +4,7 @@ public class Calculator {
         Scanner sowmi=new Scanner(System.in);
         int a=sowmi.nextInt();
         int b=sowmi.nextInt();
-        char ch=sowmi.next().charAt(0);
+        char ch=sowmi.next().charAt( 0);
         switch(ch){
             case '+':
                 System.out.println(a+b);
